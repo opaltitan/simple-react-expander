@@ -7,14 +7,13 @@
       "dom"
     ],
     "jsx": "react-jsx",
-    "outDir": "build",
-    "rootDir": ".",
+    "outDir": "./build",
+    "rootDir": "./src",
     "strict": true,
     "noUnusedLocals": false,
     "noUnusedParameters": true,
     "typeRoots": [
-      "./node_modules/@types",
-      "./src"
+      "./node_modules/@types"
     ],
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -24,15 +23,14 @@
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
     "isolatedModules": true,
-    "noEmit": true,
-    "resolveJsonModule": true
+    "noEmit": false,
+    "resolveJsonModule": true,
+    "declaration": true
   },
   "include": [
-    "src",
-    "index.ts"
+    "./src"
   ],
   "exclude": [
-    "build",
-    "node_modules"
+    "./node_modules"
   ]
 }

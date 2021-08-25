@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ExpanderParams, ExpanderHeaderParams } from './models';
+import { ExpanderParams, ExpanderHeaderParams } from './models/models';
 
 const ExpanderHeader = (params: ExpanderHeaderParams): JSX.Element => {
   return (
