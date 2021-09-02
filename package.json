@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "files": [
-    "./build"
+    "/build"
   ],
   "scripts": {
     "copy-files": "copyfiles -u 1 src/models/**/*.d.ts build",
